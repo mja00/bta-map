@@ -1,0 +1,24 @@
+# gradle
+.gradle/
+build/
+bin/
+out/
+.kotlin/
+
+# ide
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# dev runtime
+run/
+run-server/
+
+# os
+.DS_Store
+Thumbs.db

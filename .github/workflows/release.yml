@@ -1,0 +1,25 @@
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-java@v5
+        with:
+          java-version: 21
+          distribution: temurin
+      - uses: gradle/actions/setup-gradle@v5
+      - run: ./gradlew build --no-daemon
+      - name: create github release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # Ship only the runnable jar; the sources jar is noise for players.
+        run: gh release create "$GITHUB_REF_NAME" $(ls build/libs/btamap-*.jar | grep -v sources) --generate-notes

@@ -1,0 +1,34 @@
+options.btamap.minimapEnabled=Minimap
+options.btamap.minimapShape=Minimap Shape
+options.btamap.minimapShape.square=Square
+options.btamap.minimapShape.round=Round
+options.btamap.minimapSize=Minimap Size
+options.btamap.minimapZoom=Minimap Zoom
+options.btamap.minimapRotate=Rotate With Player
+options.btamap.showCoords=Show Coordinates
+options.btamap.showWaypoints=Show Waypoints
+options.btamap.waypointBeams=Waypoint Beams
+
+key.btamap.openMap=Open World Map
+key.btamap.newWaypoint=New Waypoint
+key.btamap.toggleMinimap=Toggle Minimap
+key.btamap.zoomIn=Minimap Zoom In
+key.btamap.zoomOut=Minimap Zoom Out
+
+gui.btamap.done=Done
+gui.btamap.worldmap.title=World Map
+gui.btamap.worldmap.addWaypoint=Add Waypoint
+gui.btamap.worldmap.follow=Follow: OFF
+gui.btamap.worldmap.following=Follow: ON
+
+gui.btamap.waypoint.titleNew=New Waypoint
+gui.btamap.waypoint.titleEdit=Edit Waypoint
+gui.btamap.waypoint.name=Name
+gui.btamap.waypoint.namePlaceholder=Waypoint name
+gui.btamap.waypoint.position=Position
+gui.btamap.waypoint.color=Color
+gui.btamap.waypoint.visible=Visible: ON
+gui.btamap.waypoint.hidden=Visible: OFF
+gui.btamap.waypoint.save=Save
+gui.btamap.waypoint.delete=Delete
+gui.btamap.waypoint.cancel=Cancel

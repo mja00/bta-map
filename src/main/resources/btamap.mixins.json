@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.mja00.btamap.mixin",
+  "compatibilityLevel": "JAVA_${java}",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [],
+  "client": [
+    "MinecraftMixin",
+    "PacketHandlerClientMixin",
+    "LevelStorageBaseAccessor",
+    "WorldRendererMixin"
+  ]
+}

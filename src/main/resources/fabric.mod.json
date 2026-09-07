@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "btamap",
+	"version": "${version}",
+	"name": "BTA Map",
+	"description": "Minimap and world map with waypoints for Better Than Adventure.",
+	"authors": [
+		"mja00"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"icon": "icon.png",
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.mja00.btamap.BtaMap"
+		]
+	},
+	"mixins": [
+		"btamap.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${fabricloader}",
+		"minecraft": "*",
+		"java": ">=${java}",
+		"halplibe": ">=${halplibe}"
+	},
+	"suggests": {
+		"modmenu": ">=${modmenu}"
+	}
+}
